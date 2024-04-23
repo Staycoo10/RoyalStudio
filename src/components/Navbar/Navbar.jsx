@@ -1,6 +1,6 @@
 import "./navbar.css";
 import "../Footer/footer.css"
-export default function Navbar() {
+export default function Navbar({ handleButtonClick }) {
   return (
     <>
       <nav>
@@ -14,7 +14,7 @@ export default function Navbar() {
             <a href="/" class="nav-link-style">
               Home
             </a>
-            <a href="" class="nav-link-style">
+            <a class="nav-link-style" onClick={handleButtonClick}>
               Studios
             </a>
             <a href="#Contact" class="nav-link-style">
