@@ -1,0 +1,111 @@
+#Contact {
+background: gainsboro;
+width: 100vw;
+padding-top: 3vh;
+padding-bottom: 3vh;
+color: #777;
+display: flex;
+justify-content: center;
+}
+
+.footer {
+width: 1440px;
+font-size: 18px;
+padding: 10px;
+display: block;
+align-items: center;
+
+}
+
+#Address {
+border-radius: 10px;
+padding: 10px;
+background: aliceblue;
+display: flex;
+align-items: center;
+margin: 10px;
+gap: 20px;
+}
+
+#Phone {
+border-radius: 10px;
+padding: 10px;
+background: aliceblue;
+display: flex;
+align-items: center;
+margin: 10px;
+}
+#num {
+margin-left: 5px;
+color: #777;
+}
+#num:hover{
+    color: rgb(45, 45, 45);
+}
+.Social{
+border-radius: 10px;
+padding: 20px 10px;
+background: aliceblue;
+display: flex;
+align-items: center;
+margin: 10px;
+}
+i{
+font-size: 22px;
+color: #777;
+margin-left: 20px;
+}
+i:hover{
+color: rgb(106, 180, 180);
+transition-duration: 0.5s;
+cursor: pointer;
+}
+
+a {
+text-decoration: none;
+color: #777;
+transition: 0s color;
+}
+
+a:hover{
+color: rgb(45, 45, 45);
+}
+
+body{
+margin: 0;
+}
+@media (max-width:1000px){
+  #Contact{
+    padding: 1.5vh 0 1.5vh 0;
+  }
+}
+
+@media (max-width:524px){
+  #Contact{
+    margin: 0;
+    padding: 1vh 0 1vh 0;
+  }
+  #Address{
+    justify-content: space-around;
+    gap: 0px;
+  }
+  .Social{
+    justify-content: space-between;
+    height: 3vh;
+  }
+  #Phone{
+    height: 3vh;
+  }
+
+}
+
+@media (max-width:462px){
+  #Contact{
+    width: 100vw;
+    margin: 0;
+  }
+
+  #Address{
+    display: block;
+  }
+}
