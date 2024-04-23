@@ -1,0 +1,39 @@
+nav {
+  background-color: #fff;
+  width: 100vw;
+  height: 3.125rem;
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+  position: fixed;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1440px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link-style {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link-style:hover {
+  color: gray;
+  font-size: 1.25rem;
+}
+
+.logo {
+  padding: 3px;
+  width: 44px;
+  height: 44px;
+}
