@@ -1,0 +1,29 @@
+.about-us{
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.aboutus{
+    gap: 20px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-aboutus h2, p{
+    color: black;
+}
+
+.aboutus img {
+    width: 33%;
+}
+
+.content-aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
