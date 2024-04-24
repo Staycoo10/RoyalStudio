@@ -1,0 +1,27 @@
+.studios{
+    position: relative;
+    background-color: gray;
+}
+
+.studio-main{
+    padding-top: 50px;
+    display: flex;
+    width: 1440px;
+}
+
+.left-section{
+    width: 20%;
+}
+
+.right-section{
+    width: 20%;
+}
+
+main{
+    margin: 0;
+    background-color: white;
+}
+
+li{
+    list-style: none;
+}

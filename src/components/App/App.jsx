@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import Slideshow from "../Slideshow/Slideshow";
 import Team from "../Team/Team";
 import About from "../About/About";
+import Studios from "../Studios/studios";
 export default function App() {
   const [showPage, setshowPage] = useState(false);
   const handleButtonClick = () => {
@@ -21,7 +22,9 @@ export default function App() {
         </>
       )}
 
-      {showPage && <>{/* <Studio /> */}</>}
+      {showPage && <>{
+        <Studios />
+      }</>}
       <Footer />
     </div>
   );
