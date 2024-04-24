@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RoyalStudio/static/css/main.55eaf57d.css",
+    "main.js": "/RoyalStudio/static/js/main.7dcb4d3d.js",
+    "index.html": "/RoyalStudio/index.html",
+    "main.55eaf57d.css.map": "/RoyalStudio/static/css/main.55eaf57d.css.map",
+    "main.7dcb4d3d.js.map": "/RoyalStudio/static/js/main.7dcb4d3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55eaf57d.css",
+    "static/js/main.7dcb4d3d.js"
+  ]
+}
