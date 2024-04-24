@@ -1,5 +1,5 @@
 import "./about.css"
-function Contact() {
+function About() {
     return (
         <section className="about-us">
         <div class="aboutus">
@@ -20,4 +20,4 @@ function Contact() {
     )
 }
 
-export default Contact
+export default About
